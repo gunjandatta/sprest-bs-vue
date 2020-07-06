@@ -1,0 +1,70 @@
+dependencies:
+  gd-bs-vue: 0.0.2
+  gd-sprest-bs: 5.1.4
+devDependencies:
+  vue: 2.6.11
+lockfileVersion: 5.1
+packages:
+  /bootstrap/5.0.0-alpha1_popper.js@1.16.1:
+    dependencies:
+      popper.js: 1.16.1
+    dev: false
+    peerDependencies:
+      popper.js: ^1.16.0
+    resolution:
+      integrity: sha512-iwKneP2pLXl8lN0YpnOuOARiNPTzmh/4cw+Un86u4OqrMLuQpyMC7nO07hvivvcg0B/ektJPjuPnS1s+YmRK9A==
+  /core-js/3.6.5:
+    dev: false
+    requiresBuild: true
+    resolution:
+      integrity: sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==
+  /flatpickr/4.6.3:
+    dev: false
+    resolution:
+      integrity: sha512-007VucCkqNOMMb9ggRLNuJowwaJcyOh4sKAFcdGfahfGc7JQbf94zSzjdBq/wVyHWUEs5o3+idhFZ0wbZMRmVQ==
+  /gd-bs-vue/0.0.2:
+    dependencies:
+      gd-bs: 3.0.8
+    dev: false
+    resolution:
+      integrity: sha512-QG8KcIr+obfTWgE7ydaZVcmat+jrSRnKTP++TAQOHONSxfw03szwjz27EhoE8b4XUIeqnAFgSlHbYQxnVpJjrA==
+  /gd-bs/3.0.8:
+    dependencies:
+      bootstrap: 5.0.0-alpha1_popper.js@1.16.1
+      popper.js: 1.16.1
+    dev: false
+    resolution:
+      integrity: sha512-sxTLc3HLaFNR4vSuNzH71cfOmP6gfJ2GnfighiRA551wgCQkzy7oAGF5ladvmWQQlBVs09M46cQyXxOcTgqIyw==
+  /gd-sprest-bs/5.1.4:
+    dependencies:
+      flatpickr: 4.6.3
+      gd-bs: 3.0.8
+      gd-sprest: 5.8.6
+      gd-sprest-def: 0.7.8
+    dev: false
+    resolution:
+      integrity: sha512-vqcAOv+Kfrg19I2OZ44R3kFtA6FnP5/04uDGBfFw8t4kbtvsyrXZVkbmNhGCXj+0+ymN/uoFAKNsjw5t92TjaA==
+  /gd-sprest-def/0.7.8:
+    dev: false
+    resolution:
+      integrity: sha512-p6VkuY5dP2IJMHeFRR1sp0gdHIDPOOuipxRwo8BrNQlDzGDM++lFCQxulgmPUONt66zdoh7ZxigxzNZcn8QQ8A==
+  /gd-sprest/5.8.6:
+    dependencies:
+      core-js: 3.6.5
+      gd-sprest-def: 0.7.8
+    dev: false
+    resolution:
+      integrity: sha512-p6vps9WqT24cibXXm3OSLRgjNXcXs8T3wuFBeh4j7HUjxecD9nAf5JeUjCHrbUmK/BSbxskoaRr5oP/dlzV7SQ==
+  /popper.js/1.16.1:
+    deprecated: 'You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1'
+    dev: false
+    resolution:
+      integrity: sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
+  /vue/2.6.11:
+    dev: true
+    resolution:
+      integrity: sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
+specifiers:
+  gd-bs-vue: ^0.0.2
+  gd-sprest-bs: ^5.1.4
+  vue: ^2.6.11
