@@ -2,7 +2,7 @@
 
 <script>
 import { Components } from "gd-sprest-bs";
-import Base from "./base";
+import Base from "gd-bs-vue/src/components/base";
 
 export default {
   name: "ListDisplayForm",
