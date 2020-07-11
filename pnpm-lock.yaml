@@ -1,5 +1,5 @@
 dependencies:
-  gd-bs-vue: 0.1.1
+  gd-bs-vue: 0.1.2
   gd-sprest-bs: 5.1.4
 devDependencies:
   '@babel/core': 7.10.4
@@ -2731,12 +2731,12 @@ packages:
       node: '>= 4.0.0'
     resolution:
       integrity: sha512-BRdNm8hbWzFzWHERTrejLqwHDfS4GibPoq5wjTPIoJHoBtKGPg3xAFfxmM+9ztbXelxcf2hwQcaz1PtmFeue8g==
-  /gd-bs-vue/0.1.1:
+  /gd-bs-vue/0.1.2:
     dependencies:
       gd-bs: 3.0.8
     dev: false
     resolution:
-      integrity: sha512-jyJqLkOUQq/9WbMU5TBGpinQzct+oM1ImXyCdRlVJRctyxJ7skVTRhsnge80ZAcsVU46yjcA9jF67gh+mWK07A==
+      integrity: sha512-kYvwnP/nLzL1qXs51FT43b54H4wnB1h6aptSTzEQfOSeeQMcEv0rTNQDn1OvzXNdeW260AB6P104XaSogH0zIw==
   /gd-bs/3.0.8:
     dependencies:
       bootstrap: 5.0.0-alpha1_popper.js@1.16.1
@@ -6179,7 +6179,7 @@ specifiers:
   '@babel/preset-env': ^7.10.4
   babel-loader: ^8.1.0
   css-loader: ^3.6.0
-  gd-bs-vue: ^0.1.1
+  gd-bs-vue: ^0.1.2
   gd-sprest-bs: ^5.1.4
   node-sass: ^4.14.1
   sass-loader: ^9.0.2
