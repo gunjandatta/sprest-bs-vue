@@ -1,5 +1,6 @@
-import Vue from "vue";import { Components } from "gd-sprest-bs";
-import Base from "gd-bs-vue/src/components/base";
+import Vue from "vue";
+import { Components } from "gd-sprest-bs";
+import { Base } from "gd-bs-vue/src/components/base";
 
 export const PeoplePicker = Vue.extend({
   name: "PeoplePicker",
@@ -14,6 +15,6 @@ export const PeoplePicker = Vue.extend({
     placeholder: { type: String },
     readOnly: { type: Boolean },
     searchLocal: { type: Boolean },
-    value: { type: String | Number | Object }
+    value: { type: Object }
   }
 });

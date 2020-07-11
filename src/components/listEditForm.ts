@@ -1,5 +1,6 @@
-import Vue from "vue";import { Components } from "gd-sprest-bs";
-import Base from "gd-bs-vue/src/components/base";
+import Vue from "vue";
+import { Components } from "gd-sprest-bs";
+import { Base } from "gd-bs-vue/src/components/base";
 
 export const ListEditForm = Vue.extend({
   name: "ListEditForm",
