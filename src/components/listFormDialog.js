@@ -1,10 +1,7 @@
-<template></template>
-
-<script>
-import { Components } from "gd-sprest-bs";
+import Vue from "vue";import { Components } from "gd-sprest-bs";
 import Base from "gd-bs-vue/src/components/base";
 
-export default {
+export const ListFormDialog = Vue.extend({
   name: "ListFormDialog",
   extends: Base,
   data: () => ({
@@ -30,5 +27,4 @@ export default {
     visible: { type: Boolean },
     webUrl: { type: String }
   }
-};
-</script>
+});

@@ -1,14 +1,11 @@
-<template></template>
-
-<script>
-import { Components } from "gd-sprest-bs";
+import Vue from "vue";import { Components } from "gd-sprest-bs";
 import Base from "gd-bs-vue/src/components/base";
 
-export default {
-  name: "ListEditForm",
+export const ListDisplayForm = Vue.extend({
+  name: "ListDisplayForm",
   extends: Base,
   data: () => ({
-    bs: Components.ListForm.renderEditForm
+    bs: Components.ListForm.renderDisplayForm
   }),
   props: {
     excludeFields: { type: Array },
@@ -17,9 +14,6 @@ export default {
     onControlRendered: { type: Function },
     onControlRendering: { type: Function },
     onError: { type: Function },
-    onSaving: { type: Function },
-    onValidate: { type: Function },
     template: { type: Object }
   }
-};
-</script>
+});

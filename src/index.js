@@ -1,9 +1,9 @@
-import DateTime from "./components/datetime.vue";
-import Field from "./components/field.vue";
-import ListDisplayForm from "./components/listDisplayForm.vue";
-import ListEditForm from "./components/listEditForm.vue";
-import ListFormDialog from "./components/listFormDialog.vue";
-import PeoplePicker from "./components/PeoplePicker.vue";
+import DateTime from "./components/datetime";
+import Field from "./components/field";
+import ListDisplayForm from "./components/listDisplayForm";
+import ListEditForm from "./components/listEditForm";
+import ListFormDialog from "./components/listFormDialog";
+import PeoplePicker from "./components/PeoplePicker";
 
 export * from "gd-bs-vue";
 export {

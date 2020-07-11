@@ -1,10 +1,7 @@
-<template></template>
-
-<script>
-import { Components } from "gd-sprest-bs";
+import Vue from "vue";import { Components } from "gd-sprest-bs";
 import Base from "gd-bs-vue/src/components/base";
 
-export default {
+export const DateTime = Vue.extend({
   name: "DateTime",
   extends: Base,
   data: () => ({
@@ -17,5 +14,4 @@ export default {
     showTime: { type: Boolean },
     value: { type: String }
   }
-};
-</script>
+});

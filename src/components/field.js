@@ -1,10 +1,7 @@
-<template></template>
-
-<script>
-import { Components } from "gd-sprest-bs";
+import Vue from "vue";import { Components } from "gd-sprest-bs";
 import Base from "gd-bs-vue/src/components/base";
 
-export default {
+export const Field = Vue.extend({
   name: "Field",
   extends: Base,
   data: () => ({
@@ -22,5 +19,4 @@ export default {
     onValidate: { type: Function },
     value: { type: Object }
   }
-};
-</script>
+});
