@@ -1,6 +1,6 @@
 {
   "name": "gd-sprest-bs-vue",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Extends the gd-sprest-bs library w/ VueJS components.",
   "main": "src/index.ts",
   "scripts": {
@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/gunjandatta/sprest-bs-vue#readme",
   "dependencies": {
-    "gd-bs-vue": "^0.2.1",
-    "gd-sprest-bs": "^5.1.8"
+    "gd-bs-vue": "^0.2.2",
+    "gd-sprest-bs": "^5.1.9"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
