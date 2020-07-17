@@ -1,6 +1,6 @@
 dependencies:
   gd-bs-vue: 0.2.2
-  gd-sprest-bs: 5.1.9
+  gd-sprest-bs: 5.2.1
 devDependencies:
   '@babel/core': 7.10.5
   '@babel/preset-env': 7.10.4_@babel+core@7.10.5
@@ -9,7 +9,7 @@ devDependencies:
   node-sass: 4.14.1
   sass-loader: 9.0.2_node-sass@4.14.1+webpack@4.43.0
   style-loader: 1.2.1_webpack@4.43.0
-  ts-loader: 8.0.0
+  ts-loader: 8.0.1
   vue: 2.6.11
   vue-loader: 15.9.3_css-loader@3.6.0+webpack@4.43.0
   webpack: 4.43.0_webpack@4.43.0
@@ -1532,8 +1532,8 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/4.13.0:
     dependencies:
-      caniuse-lite: 1.0.30001099
-      electron-to-chromium: 1.3.497
+      caniuse-lite: 1.0.30001100
+      electron-to-chromium: 1.3.498
       escalade: 3.0.2
       node-releases: 1.1.59
     dev: true
@@ -1635,10 +1635,10 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
-  /caniuse-lite/1.0.30001099:
+  /caniuse-lite/1.0.30001100:
     dev: true
     resolution:
-      integrity: sha512-sdS9A+sQTk7wKoeuZBN/YMAHVztUfVnjDi4/UV3sDE8xoh7YR12hKW+pIdB3oqKGwr9XaFL2ovfzt9w8eUI5CA==
+      integrity: sha512-0eYdp1+wFCnMlCj2oudciuQn2B9xAFq3WpgpcBIZTxk/1HNA/O2YA7rpeYhnOqsqAJq1AHUgx6i1jtafg7m2zA==
   /caseless/0.12.0:
     dev: true
     resolution:
@@ -1684,7 +1684,7 @@ packages:
       fsevents: 1.2.13
     resolution:
       integrity: sha512-ZmZUazfOzf0Nve7duiCKD23PFSCs4JPoYyccjUFF3aQkQadqBhfzhjkwBH2mNOG9cTBwhamM37EIsIkZw3nRgg==
-  /chokidar/3.4.0:
+  /chokidar/3.4.1:
     dependencies:
       anymatch: 3.1.1
       braces: 3.0.2
@@ -1700,7 +1700,7 @@ packages:
     optionalDependencies:
       fsevents: 2.1.3
     resolution:
-      integrity: sha512-aXAaho2VJtisB/1fg1+3nlLJqGOuewTzQpd/Tz0yTg2R0e4IGtshYvtjowyEumcBv2z+y4+kc75Mz7j5xJskcQ==
+      integrity: sha512-TQTJyr2stihpC4Sya9hs2Xh+O2wf+igjL36Y75xx2WdHuiICcn/XJza46Jwt0eT5hVpQOzo3FpY3cj3RVYLX0g==
   /chownr/1.1.4:
     dev: true
     resolution:
@@ -2209,10 +2209,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
-  /electron-to-chromium/1.3.497:
+  /electron-to-chromium/1.3.498:
     dev: true
     resolution:
-      integrity: sha512-sPdW5bUDZwiFtoonuZCUwRGzsZmKzcLM0bMVhp6SMCfUG+B3faENLx3cE+o+K0Jl+MPuNA9s9cScyFjOlixZpQ==
+      integrity: sha512-W1hGwaQEU8j9su2jeAr3aabkPuuXw+j8t73eajGAkEJWbfWiwbxBwQN/8Qmv2qCy3uCDm2rOAaZneYQM8VGC4w==
   /elliptic/6.5.3:
     dependencies:
       bn.js: 4.11.9
@@ -2247,7 +2247,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==
-  /enhanced-resolve/4.2.0:
+  /enhanced-resolve/4.3.0:
     dependencies:
       graceful-fs: 4.2.4
       memory-fs: 0.5.0
@@ -2256,7 +2256,7 @@ packages:
     engines:
       node: '>=6.9.0'
     resolution:
-      integrity: sha512-S7eiFb/erugyd1rLb6mQ3Vuq+EXHv5cpCkNqqIkYkBgN2QdFnyCZzFBleqwGEx4lgNGYij81BWnCrFNK7vxvjQ==
+      integrity: sha512-3e87LvavsdxyoCfGusJnrZ5G8SLPOFeHSNpZI/ATL9a5leXo2k0w6MKnbqhdBad9qTobSfB20Ld7UmgoNbAZkQ==
   /errno/0.1.7:
     dependencies:
       prr: 1.0.1
@@ -2731,27 +2731,27 @@ packages:
       integrity: sha512-BRdNm8hbWzFzWHERTrejLqwHDfS4GibPoq5wjTPIoJHoBtKGPg3xAFfxmM+9ztbXelxcf2hwQcaz1PtmFeue8g==
   /gd-bs-vue/0.2.2:
     dependencies:
-      gd-bs: 3.1.0
+      gd-bs: 3.1.1
       vue: 2.6.11
     dev: false
     resolution:
       integrity: sha512-m5HREVVW9x9zyBxkjA2PCpzMvwfT/1PcWXzR/KgcECGoUuWu98W8XmTTMirokZX+GNy3iosviCyjnwqa9MtZ3g==
-  /gd-bs/3.1.0:
+  /gd-bs/3.1.1:
     dependencies:
       bootstrap: 5.0.0-alpha1_popper.js@1.16.1
       popper.js: 1.16.1
     dev: false
     resolution:
-      integrity: sha512-x1JqHZD0bfMmiRNAoQIZPxTtE5C+0oY0tX7SjZ78GPVU74/vbpiqkDHf07wNJRE+zt6ZL3Z+yQM6KX8rOXtXkA==
-  /gd-sprest-bs/5.1.9:
+      integrity: sha512-5a4QCDuEwZIKvko+uWU7/S1FWt07sy5cEZANVwd3l1gvvFV5R/DuZ43VtRpxy9M5rYHSd0IKs5v+1orYsoGrxg==
+  /gd-sprest-bs/5.2.1:
     dependencies:
       flatpickr: 4.6.3
-      gd-bs: 3.1.0
+      gd-bs: 3.1.1
       gd-sprest: 5.9.0
       gd-sprest-def: 0.7.8
     dev: false
     resolution:
-      integrity: sha512-YOqC/zW0w2ZfGrHsNDhfYcZTvvaMJHBsSrxoyLVIJNPSLMsuFAb9gNMOCVDdhS4v1dO3NRUSL0Dus8mf3t0G3Q==
+      integrity: sha512-0mCJamacnMr5MMgOYJPGnmOuCGt8SCk4oytDb4FmZ7cth3n6tBfD1/eGXKYDcCtcB5qrXESbZ9UVNVtfdvFM3g==
   /gd-sprest-def/0.7.8:
     dev: false
     resolution:
@@ -5656,10 +5656,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-m6s2OdQe5wgpFMC+pAJ+q9djG82O2jcHPOI6RNg1yy9rCYR+WD6Nbpl32fDpfC56nirdRy+opFa/Vk7HYhqaew==
-  /ts-loader/8.0.0:
+  /ts-loader/8.0.1:
     dependencies:
       chalk: 2.4.2
-      enhanced-resolve: 4.2.0
+      enhanced-resolve: 4.3.0
       loader-utils: 1.4.0
       micromatch: 4.0.2
       semver: 6.3.0
@@ -5669,7 +5669,7 @@ packages:
     peerDependencies:
       typescript: '*'
     resolution:
-      integrity: sha512-giEW167rtK1V6eX/DnXEtOgcawwoIp6hqznqYNNSmraUZOq36zMhwBq12JMlYhxf50BC58bscsTSKKtE42zAuw==
+      integrity: sha512-I9Nmly0ufJoZRMuAT9d5ijsC2B7oSPvUnOJt/GhgoATlPGYfa17VicDKPcqwUCrHpOkCxr/ybLYwbnS4cOxmvQ==
   /tslib/1.13.0:
     dev: true
     resolution:
@@ -5920,7 +5920,7 @@ packages:
       neo-async: 2.6.2
     dev: true
     optionalDependencies:
-      chokidar: 3.4.0
+      chokidar: 3.4.1
       watchpack-chokidar2: 2.0.0
     resolution:
       integrity: sha512-ymVbbQP40MFTp+cNMvpyBpBtygHnPzPkHqoIwRRj/0B8KhqQwV8LaKjtbaxF2lK4vl8zN9wCxS46IFCU5K4W0g==
@@ -5934,7 +5934,7 @@ packages:
     dependencies:
       chalk: 2.4.2
       cross-spawn: 6.0.5
-      enhanced-resolve: 4.2.0
+      enhanced-resolve: 4.3.0
       findup-sync: 3.0.0
       global-modules: 2.0.0
       import-local: 2.0.0
@@ -6042,7 +6042,7 @@ packages:
       ajv: 6.12.3
       ajv-keywords: 3.5.1_ajv@6.12.3
       chrome-trace-event: 1.0.2
-      enhanced-resolve: 4.2.0
+      enhanced-resolve: 4.3.0
       eslint-scope: 4.0.3
       json-parse-better-errors: 1.0.2
       loader-runner: 2.4.0
@@ -6178,11 +6178,11 @@ specifiers:
   babel-loader: ^8.1.0
   css-loader: ^3.6.0
   gd-bs-vue: ^0.2.2
-  gd-sprest-bs: ^5.1.9
+  gd-sprest-bs: '*'
   node-sass: ^4.14.1
   sass-loader: ^9.0.2
   style-loader: ^1.2.1
-  ts-loader: ^8.0.0
+  ts-loader: ^8.0.1
   vue: ^2.6.11
   vue-loader: ^15.9.3
   webpack: ^4.43.0
