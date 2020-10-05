@@ -10,11 +10,13 @@ export const ListDisplayForm = Vue.extend({
   }),
   props: {
     excludeFields: { type: Array },
+    groupClassName: { type: String },
     includeFields: { type: Array },
     info: { type: Object },
     onControlRendered: { type: Function },
     onControlRendering: { type: Function },
     onError: { type: Function },
+    rowClassName: { type: String },
     template: { type: Object }
   }
 });

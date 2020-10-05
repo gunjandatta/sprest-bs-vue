@@ -12,7 +12,6 @@ export const Field = Vue.extend({
     controlMode: { type: Number },
     errorMessage: { type: String },
     field: { type: Object },
-    showTime: { type: Boolean },
     listInfo: { type: String },
     onError: { type: Function },
     onControlRendered: { type: Function },

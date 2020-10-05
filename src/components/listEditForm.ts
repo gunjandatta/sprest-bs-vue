@@ -10,6 +10,7 @@ export const ListEditForm = Vue.extend({
   }),
   props: {
     excludeFields: { type: Array },
+    groupClassName: { type: String },
     includeFields: { type: Array },
     info: { type: Object },
     onControlRendered: { type: Function },
@@ -17,6 +18,7 @@ export const ListEditForm = Vue.extend({
     onError: { type: Function },
     onSaving: { type: Function },
     onValidate: { type: Function },
+    rowClassName: { type: String },
     template: { type: Object }
   }
 });
