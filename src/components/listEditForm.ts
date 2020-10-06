@@ -15,6 +15,7 @@ export const ListEditForm = Vue.extend({
     info: { type: Object },
     onControlRendered: { type: Function },
     onControlRendering: { type: Function },
+    onFilterLookupField: { type: Function },
     onError: { type: Function },
     onSaving: { type: Function },
     onValidate: { type: Function },
