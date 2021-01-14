@@ -9,6 +9,7 @@ export const ListEditForm = Vue.extend({
     bs: Components.ListForm.renderEditForm
   }),
   props: {
+    controlMode: { type: Number },
     excludeFields: { type: Array },
     groupClassName: { type: String },
     includeFields: { type: Array },
