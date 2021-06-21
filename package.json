@@ -1,30 +1,28 @@
 {
-  "name": "gd-sprest-bs-vue",
-  "version": "0.6.3",
-  "description": "Extends the gd-sprest-bs library w/ VueJS components.",
-  "main": "src/index.ts",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gunjandatta/sprest-bs-vue.git"
-  },
-  "keywords": [
-    "Bootstrap",
-    "SharePoint",
-    "SPFx",
-    "Vue",
-    "VueJS"
-  ],
-  "author": "Gunjan Datta <me@dattabase.com> (https://dattabase.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gunjandatta/sprest-bs-vue/issues"
-  },
-  "homepage": "https://github.com/gunjandatta/sprest-bs-vue#readme",
-  "peerDependencies": {
-    "vue": "*"
-  },
-  "dependencies": {
-    "gd-bs-vue": "*"
-  }
+    "name": "gd-sprest-bs-vue",
+    "version": "0.6.4",
+    "description": "Extends the gd-sprest-bs library w/ VueJS components.",
+    "main": "src/index.ts",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gunjandatta/sprest-bs-vue.git"
+    },
+    "keywords": [
+        "Bootstrap",
+        "SharePoint",
+        "SPFx",
+        "Vue",
+        "VueJS"
+    ],
+    "author": "Gunjan Datta <me@dattabase.com> (https://dattabase.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gunjandatta/sprest-bs-vue/issues"
+    },
+    "homepage": "https://github.com/gunjandatta/sprest-bs-vue#readme",
+    "peerDependencies": {
+        "gd-bs-vue": "*",
+        "vue": "*"
+    }
 }
